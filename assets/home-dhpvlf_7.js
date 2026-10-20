@@ -14,14 +14,6 @@ import{a as o,f as d,t as b,e as w,l as x}from"./index-49v1tazL.js";import{g}fro
               </div>
             </div>
           </div>
-          <!--
-          <div class="hero-stats" id="heroStats">
-            <div class="hero-stat-item"><span class="hero-stat-value">-</span><span class="hero-stat-label">Pemasukan</span></div>
-            <div class="hero-stat-item"><span class="hero-stat-value">-</span><span class="hero-stat-label">Pengeluaran</span></div>
-            <div class="hero-stat-item"><span class="hero-stat-value">-</span><span class="hero-stat-label">Saldo</span></div>
-            <div class="hero-stat-item"><span class="hero-stat-value">-</span><span class="hero-stat-label">Program Aktif</span></div>
-          </div>
-          -->
         </div>
       </div>
 
