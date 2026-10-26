@@ -30,9 +30,6 @@ import{a as d,f as v,e as b,g as w,t as g,l as A}from"./index-DWj9LPsn.js";impor
       <!-- Programs placeholder -->
       <div id="programsSection"></div>
 
-      <!-- Donasi CTA placeholder -->
-      <div id="donasiCtaSection"></div>
-
       <!-- Berita placeholder -->
       <div id="beritaSection"></div>
     </div>
