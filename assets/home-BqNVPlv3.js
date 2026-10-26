@@ -14,12 +14,6 @@ import{a as d,f as v,e as b,g as w,t as g,l as A}from"./index-DWj9LPsn.js";impor
               </div>
             </div>
           </div>
-          <!--<div class="hero-stats" id="heroStats">
-            <div class="hero-stat-item"><span class="hero-stat-value">-</span><span class="hero-stat-label">Pemasukan</span></div>
-            <div class="hero-stat-item"><span class="hero-stat-value">-</span><span class="hero-stat-label">Pengeluaran</span></div>
-            <div class="hero-stat-item"><span class="hero-stat-value">-</span><span class="hero-stat-label">Saldo</span></div>
-            <div class="hero-stat-item"><span class="hero-stat-value">-</span><span class="hero-stat-label">Program Aktif</span></div>
-          </div>-->
         </div>
       </div>
 
