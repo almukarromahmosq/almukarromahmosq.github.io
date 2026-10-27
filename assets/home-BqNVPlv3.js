@@ -239,28 +239,26 @@ import{a as d,f as v,e as b,g as w,t as g,l as A}from"./index-DWj9LPsn.js";impor
     t += "</div></div>";
     document.getElementById("programsSection").innerHTML = t;
 
-    // === TAMBAHAN: BANNER GRADASI HIJAU DI ANTARA PROGRAM & BERITA ===
+// === TAMBAHAN: BANNER GRADASI HIJAU FULL-WIDTH (NGEBLOCK) ===
     var bannerHtml = `
-      <div class="section-block" style="padding-top:0">
+      <div class="section-block text-white py-5 my-4" style="background: linear-gradient(135deg, #1b4d3e 0%, #2e7d32 100%); width: 100%;">
         <div class="container">
-          <div class="donasi-hero my-4 p-4 p-md-5 rounded-4 shadow-sm" style="background: linear-gradient(135deg, #1b4d3e 0%, #2e7d32 100%);">
-            <div class="row align-items-center">
-              <div class="col-lg-8 mb-3 mb-lg-0 text-white">
-                <div class="section-badge mb-3" style="background:rgba(255,255,255,.15);color:#fff;border-color:rgba(255,255,255,.2);display:inline-block">
-                  <i class="bi bi-qr-code"></i> Infaq & Donasi Online
-                </div>
-                <h2 style="font-family:var(--font-display);font-size:1.8rem;margin-bottom:12px">
-                  Berdonasi untuk Kemajuan Masjid
-                </h2>
-                <p style="color:rgba(255,255,255,.8);font-size:.92rem;line-height:1.7;max-width:600px;margin-bottom:0">
-                  Setiap rupiah yang Anda sumbangkan akan digunakan untuk membangun dan merawat masjid serta menjalankan program-program dakwah dan sosial.
-                </p>
+          <div class="row align-items-center py-3">
+            <div class="col-lg-8 mb-3 mb-lg-0">
+              <div class="section-badge mb-3" style="background:rgba(255,255,255,.15);color:#fff;border-color:rgba(255,255,255,.2);display:inline-block">
+                <i class="bi bi-qr-code"></i> Infaq & Donasi Online
               </div>
-              <div class="col-lg-4 text-lg-end">
-                <a href="/donasi" class="btn btn-light text-success fw-bold px-4 py-3 rounded-pill shadow-sm" style="font-size:.9rem;">
-                  <i class="bi bi-qr-code me-2"></i> Donasi Sekarang
-                </a>
-              </div>
+              <h2 style="font-family:var(--font-display);font-size:2rem;margin-bottom:12px;color:#fff;">
+                Berdonasi untuk Kemajuan Masjid
+              </h2>
+              <p style="color:rgba(255,255,255,.85);font-size:.95rem;line-height:1.7;max-width:600px;margin-bottom:0">
+                Setiap rupiah yang Anda sumbangkan akan digunakan untuk membangun dan merawat masjid serta menjalankan program-program dakwah dan sosial.
+              </p>
+            </div>
+            <div class="col-lg-4 text-lg-end">
+              <a href="/donasi" class="btn btn-light text-success fw-bold px-4 py-3 rounded-pill shadow-sm" style="font-size:.9rem;">
+                <i class="bi bi-qr-code me-2"></i> Donasi Sekarang
+              </a>
             </div>
           </div>
         </div>
