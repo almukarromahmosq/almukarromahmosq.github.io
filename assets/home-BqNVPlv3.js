@@ -239,24 +239,24 @@ import{a as d,f as v,e as b,g as w,t as g,l as A}from"./index-DWj9LPsn.js";impor
     t += "</div></div>";
     document.getElementById("programsSection").innerHTML = t;
 
-// === TAMBAHAN: BANNER GRADASI HIJAU FULL-WIDTH (NGEBLOCK) ===
+// === TAMBAHAN: BANNER GRADASI HIJAU FULL-WIDTH (FORCED) ===
     var bannerHtml = `
-      <div class="section-block text-white py-5 my-4" style="background: linear-gradient(135deg, #1b4d3e 0%, #2e7d32 100%); width: 100%;">
-        <div class="container">
-          <div class="row align-items-center py-3">
-            <div class="col-lg-8 mb-3 mb-lg-0">
-              <div class="section-badge mb-3" style="background:rgba(255,255,255,.15);color:#fff;border-color:rgba(255,255,255,.2);display:inline-block">
+      <div style="width: 100vw !important; position: relative !important; left: 50% !important; right: 50% !important; margin-left: -50vw !important; margin-right: -50vw !important; background: linear-gradient(135deg, #1b4d3e 0%, #2e7d32 100%) !important; padding: 60px 0 !important; margin-top: 30px !important; margin-bottom: 30px !important;">
+        <div class="container" style="max-width: 1140px !important; margin: 0 auto !important; padding: 0 15px !important;">
+          <div class="row align-items-center">
+            <div class="col-lg-8 mb-3 mb-lg-0 text-white">
+              <div style="background: rgba(255,255,255,0.15); color: #fff; padding: 6px 14px; border-radius: 20px; display: inline-block; font-size: 0.85rem; font-weight: 600; margin-bottom: 12px; border: 1px solid rgba(255,255,255,0.2);">
                 <i class="bi bi-qr-code"></i> Infaq & Donasi Online
               </div>
-              <h2 style="font-family:var(--font-display);font-size:2rem;margin-bottom:12px;color:#fff;">
+              <h2 style="font-family: var(--font-display); font-size: 2rem; margin-bottom: 12px; color: #fff; font-weight: 700;">
                 Berdonasi untuk Kemajuan Masjid
               </h2>
-              <p style="color:rgba(255,255,255,.85);font-size:.95rem;line-height:1.7;max-width:600px;margin-bottom:0">
+              <p style="color: rgba(255,255,255,0.85); font-size: 0.95rem; line-height: 1.7; max-width: 600px; margin-bottom: 0;">
                 Setiap rupiah yang Anda sumbangkan akan digunakan untuk membangun dan merawat masjid serta menjalankan program-program dakwah dan sosial.
               </p>
             </div>
             <div class="col-lg-4 text-lg-end">
-              <a href="/donasi" class="btn btn-light text-success fw-bold px-4 py-3 rounded-pill shadow-sm" style="font-size:.9rem;">
+              <a href="/donasi" class="btn btn-light text-success fw-bold px-4 py-3 rounded-pill shadow-sm" style="font-size: 0.9rem;">
                 <i class="bi bi-qr-code me-2"></i> Donasi Sekarang
               </a>
             </div>
